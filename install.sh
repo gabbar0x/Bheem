@@ -12,11 +12,11 @@ dir=~/Tools;
 go get github.com/Ice3man543/SubOver;
 go get -u github.com/tomnomnom/gf;
 go get -u github.com/tomnomnom/assetfinder;
-go get -u -v github.com/projectdiscovery/naabu/v2/cmd/naabu;
+GO111MODULE=on go get -u -v github.com/projectdiscovery/naabu/v2/cmd/naabu;
 go get github.com/tomnomnom/hacks/waybackurls;
 go get -u -v github.com/lukasikic/subzy;
 go install -v github.com/lukasikic/subzy;
-go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
+GO111MODULE=on go get -u -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei;
 git clone https://github.com/projectdiscovery/nuclei-templates $dir/nuclei-templates;
 go get github.com/haccer/subjack;
 GO111MODULE=on go get -u -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder
@@ -27,16 +27,16 @@ GO111MODULE=on go get -u -v github.com/lc/subjs
 go get github.com/hakluke/hakcheckurl;
 go get github.com/hakluke/hakrawler;
 go get github.com/hakluke/hakrevdns;
-go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
+GO111MODULE=on go get -u -v github.com/projectdiscovery/httpx/cmd/httpx;
 git clone https://github.com/blechschmidt/massdns $dir/massdns;
 git clone https://github.com/devanshbatham/FavFreak $dir/FavFreak;
 git clone https://github.com/GerbenJavado/LinkFinder $dir/LinkFinder;
 git clone https://github.com/m4ll0k/SecretFinder $dir/SecretFinder;
 git clone https://github.com/devanshbatham/ParamSpider $dir/ParamSpider;
-go get -u -v github.com/projectdiscovery/dnsprobe;
+GO111MODULE=on go get -u -v github.com/projectdiscovery/dnsprobe;
 git clone https://github.com/maurosoria/dirsearch $dir/dirsearch;
 git clone https://github.com/ozguralp/gmapsapiscanner $dir/gmapsapiscanner;
-go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns;
+GO111MODULE=on go get -u -v github.com/projectdiscovery/shuffledns/cmd/shuffledns;
 git clone https://github.com/1ndianl33t/Gf-Patterns $dir/Gf-Patterns;
 pip3 install corscanner
 pip3 install -r ~/Tools/*/requirements.txt;
